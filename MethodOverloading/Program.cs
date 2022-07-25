@@ -36,7 +36,20 @@
         }
         public static void Main(string[] args)
         {
-           
+            var a = 32;
+            var b = 16;
+
+            var addAnwser = Add(a, b);
+
+            var x = 8.3m;
+            var y = 13.2m;
+
+            var decimalAnwser = Add(x, y);
+
+            var money = Add(2, 6, true);
+            System.Console.WriteLine($"Addition method: {addAnwser} Decimal anwser: {decimalAnwser}");
+            System.Console.WriteLine($"Money Awnser: {money}");
+
         }
     }
 
